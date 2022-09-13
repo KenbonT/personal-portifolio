@@ -1,0 +1,51 @@
+#height1 {
+  height: 600px;
+}
+#welcome {
+  margin-top: 200px;
+  font-family: sans-serif;
+}
+#welcome > h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+#welcome > p {
+  color: red;
+  font-size: 2rem;
+  font-weight: 200;
+}
+#middle {
+  /* max-width: 640px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 6rem;
+  margin-left: auto; */
+}
+
+h3 {
+  text-decoration: underline;
+  /* color: white; */
+  padding-top: 2.5em;
+  padding-bottom: 2em;
+}
+section {
+  text-align: center;
+  /* padding: 10rem, 2rem; */
+  background-color: #45567d;
+}
+/* .card{
+    float:left;
+
+} */
+.card {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
